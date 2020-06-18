@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>General Fixes.</title>
+        <title>Maintenance</title>
         <link rel="stylesheet" type="text/css" href="style.css">
         <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
         <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
@@ -29,7 +29,16 @@
         <h1>How to verify the integrity of Windows</h1>
         <div class="bodyText">
             <p>
-
+                First, we need to open the <a href="cmdAdmin.html">command prompt in windows as an administrator.</a><br>
+                Then, copy and paste the following commands all together into the command prompt, or enter them individually.<br>
+                (If you copy and paste them all together, windows will execute them in order)
+                <blockquote class="code">
+                    DISM /Online /Cleanup-Image /CheckHealth<br>
+                    DISM /Online /Cleanup-Image /ScanHealth<br>
+                    sfc /scannow
+                </blockquote>
+                This scans and repairs your windows image with DISM. <br>
+                Next, the system file checker uses that image to check the integrity of the system files.
             </p>
         </div>
     </body>

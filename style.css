@@ -29,8 +29,8 @@ table {
 th{
     width: auto;
 }
-.reg{
-    color: black;
+a{
+    color: white;
     font-weight: bold;
 }
 .page{
@@ -69,4 +69,6 @@ th{
 }
 .code{
     font-family: "Consolas", "Courier New", monospace !important;
+    font-weight: normal;
+    font-style: normal;
 }
