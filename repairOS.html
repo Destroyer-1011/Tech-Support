@@ -35,10 +35,14 @@
                 <blockquote class="code">
                     DISM /Online /Cleanup-Image /CheckHealth<br>
                     DISM /Online /Cleanup-Image /ScanHealth<br>
-                    sfc /scannow
+                    sfc /scannow<br/>
+                    exit
                 </blockquote>
+                <br>
                 This scans and repairs your windows image with DISM. <br>
-                Next, the system file checker uses that image to check the integrity of the system files.
+                Next, the system file checker uses that image to check the integrity of the system files.<br>
+                If you copy-pasted the whole code, you can press enter after reviewing the output if you'd like.<br>
+                The exit command will close the command prompt.
             </p>
         </div>
     </body>

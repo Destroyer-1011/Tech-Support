@@ -71,4 +71,8 @@ a{
     font-family: "Consolas", "Courier New", monospace !important;
     font-weight: normal;
     font-style: normal;
+    background-color:  #393939;
+    padding: 10px;
+    border: 3px solid white;
+    display: inline-block;
 }
