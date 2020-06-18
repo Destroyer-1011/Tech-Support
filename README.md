@@ -6,7 +6,7 @@ Explaining everything over and over is tedious.
 
 Open with website with index.html, or click on the OPEN_ME.html.
 
-Copyright Notice:
+Copyright:
 Apply the GNU Affero General Public License v. 3.0 as directed.
 
 Disclaimer:
